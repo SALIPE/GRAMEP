@@ -149,6 +149,8 @@ def run_load_sequences(
         alphabet = 'B|D|E|F|H|I|J|K|L|M|N|O|P|Q|R|S|U|V|W|X|Y|Z'
     elif dictonary == 'ACGU':
         alphabet = 'B|D|E|F|H|I|J|K|L|M|N|O|P|Q|R|S|T|V|W|X|Y|Z'
+    elif dictonary == 'ALL':
+        alphabet = 'A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|X|Y|Z'
     if not alphabet:
         message.error_dict()
 
@@ -638,6 +640,8 @@ def loads_sequence_classify(
         alphabet = 'B|D|E|F|H|I|J|K|L|M|N|O|P|Q|R|S|U|V|W|X|Y|Z'
     elif sequences_dict == 'ACGU':
         alphabet = 'B|D|E|F|H|I|J|K|L|M|N|O|P|Q|R|S|T|V|W|X|Y|Z'
+    elif sequences_dict == 'ALL':
+        alphabet = 'A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|X|Y|Z'
     if not alphabet:
         message.error_dict()
 

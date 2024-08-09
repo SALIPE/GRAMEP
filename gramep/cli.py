@@ -24,7 +24,7 @@ def show_version(flag):
 
 
 def complete_dicts():
-    return ['ACTG', 'ACUG']
+    return ['ACTG', 'ACUG', 'ALL']
 
 
 def complete_objective():
