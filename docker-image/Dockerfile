@@ -22,4 +22,4 @@ RUN python3 -m venv /usr/src/app/.venv
 ENV PATH="/usr/src/app/.venv/bin:/root/.cargo/bin:${PATH}"
 
 RUN pip install --upgrade pip
-run pip install gramep
+RUN pip install gramep
